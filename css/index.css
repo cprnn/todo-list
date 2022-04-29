@@ -1,0 +1,54 @@
+body {
+    background-color: #D854FF;
+}
+
+.container {
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    max-width: 1000px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #D854FF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    color: #D854FF;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #e4aff5;
+    height: 60px;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+#taskname{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#trash{
+    color:#ffffff;
+}
+
+#dateTime{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
